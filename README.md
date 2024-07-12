@@ -5,5 +5,5 @@
 ![](./imagens/2.png)
 ## Replicaset backend
 ![](./imagens/3.png)
-## Deletando um Pod
+## Deletando um Pod e subindo outro pod automaticamente K8S
 ![](./imagens/4.png)
