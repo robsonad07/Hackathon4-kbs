@@ -16,11 +16,6 @@ spec:
     spec:
       containers:
       - name: banco
-        image: robsonad/banco-it_talent:latest
-        env:
-        - name: MYSQL_ROOT_PASSWORD
-          value: "1234"
-        - name: MYSQL_DATABASE
-          value: "BANCO_DADOS_IT_TALENT"
+        image: gaellopes/banco-it-talent:v1
         ports:
         - containerPort: 3306

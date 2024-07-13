@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: robsonad/backend-it_talent:latest
+        image: gaellopes/backend:v1.0
         ports:
         - containerPort: 3000
